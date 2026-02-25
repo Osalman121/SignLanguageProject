@@ -1,0 +1,27 @@
+﻿# Python & Environments
+__pycache__/
+*.py[cod]
+.venv/
+sign_app_env/
+
+# Massive ML Data & Weights (DO NOT UPLOAD TO GITHUB)
+data/
+saved_models/
+*.pth
+*.pt
+*.onnx
+*.npz
+
+# Flutter / Dart
+mobile_app/.dart_tool/
+mobile_app/build/
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+
+# Firebase
+firebase_backend/.firebase/
+firebase-debug.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
